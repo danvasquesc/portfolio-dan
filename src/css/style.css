@@ -1,3 +1,106 @@
-i {
+/*i {
     color: #ff4500;
+} */
+
+body {
+  background-color: #964646;
+  font-family: "Questrial", serif;
+  line-height: 1.6; /*ver dps pra alterar*/
+  color: #333; /*ver dps pra alterar/ criar variavel de cor*/
+}
+
+.container {
+  background-color: #ff0000;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/*Cabeçalho*/
+header {
+  background-color: #fff5f1;
+  box-shadow: 0 2px 5px rgba(44, 44, 44, 0.161);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+nav ul {
+  background-color: #e1adad;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 12px 0;
+}
+
+nav ul li {
+  background-color: #a49898;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  background-color: #3300ff;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+  font-size: 1rem;
+}
+
+nav ul li a:hover {
+  color: #ff4500;
+}
+
+section {
+  background-color: #e32a7a;
+  padding: 80px 0; /*alterar dps o espaçamento vertical entre as sessões*/
+}
+
+section h2 {
+  background-color: #e4ef1a;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+  font-size: 2.5rem;
+}
+
+/*Section Home*/
+
+#home {
+  background-color: rgb(115, 0, 255);
+  padding-top: 120px;
+  background: linear-gradient(to bottom, #f8f9fa, #fff);
+}
+
+.home-conteudo {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.home-texto {
+    background-color: #48329f;
+    flex: 1;
+}
+
+.home-texto h1 {
+  background-color: #d75e2f;
+  font-size: 3rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.home-texto h2 {
+
+}
+
+.img-perfil {
+  background-color: #010101;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
 }
