@@ -18,7 +18,7 @@ body {
 
 /*Cabeçalho*/
 header {
-  background-color: #fff5f1;
+  background-color: #f8f9fa;
   box-shadow: 0 2px 5px rgba(44, 44, 44, 0.161);
   position: fixed;
   width: 100%;
@@ -66,7 +66,6 @@ section h2 {
 }
 
 /*Section Home*/
-
 #home {
   background-color: rgb(115, 0, 255);
   padding-top: 120px;
@@ -82,8 +81,8 @@ section h2 {
 }
 
 .home-texto {
-    background-color: #48329f;
-    flex: 1;
+  background-color: #48329f;
+  flex: 1;
 }
 
 .home-texto h1 {
@@ -94,13 +93,153 @@ section h2 {
 }
 
 .home-texto h2 {
+  background-color: #6a0a0a;
+  font-size: 1.5rem;
+  color: #ff4500;
+  margin-bottom: 20px;
+  text-align: left;
+}
 
+.img-perfil-container {
+  background-color: #010101;
+  flex: 1;
+  text-align: center;
 }
 
 .img-perfil {
-  background-color: #010101;
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  border: 1px solid #ff4500;
   object-fit: cover;
 }
+
+/*Link das redes*/
+.links-redes {
+  background-color: #6a6970;
+  margin-top: 20px;
+}
+
+.links-redes a {
+  color: #333;
+  font-size: 24px;
+  margin-right: 20px;
+  transition: color 0.3s;
+}
+
+.links-redes a:hover {
+  color: #ff4500;
+}
+
+/*Section Sobre*/
+#sobre p {
+  text-align: justify;
+}
+
+/*Section Habilidades*/
+.grid-habilidades {
+  background-color: #9086b5;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.icone-habilidade {
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.icone-habilidade i {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #ff4500;
+}
+
+.icone-habilidade span {
+  background-color: #b99191;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+/*Section Projetos*/
+
+.grid-projetos {
+  background-color: #100a2b;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.card-projeto {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.img-projeto {
+  width: 100%;
+  height: 200px;
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.conteudo-projeto {
+  padding: 20px;
+}
+
+.conteudo-projeto h3 {
+  color: #ff4500;
+  margin-bottom: 15px;
+}
+
+.link-projeto {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.btn-01 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff4500;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-01:hover {
+  background-color: #fc5e2e;
+}
+
+.btn-02 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: #ff4500;
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid #ff4500;
+  cursor: pointer;
+  transition: background-color 0.8s;
+}
+
+.btn-02:hover {
+  background-color: #ff4500;
+  color: #f8f9fa;
+}
+
+/*Section Certificados*/
