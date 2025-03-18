@@ -1,0 +1,80 @@
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1.25rem;
+  }
+
+  .home-conteudo {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-texto h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.625rem;
+  }
+
+  .home-texto h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .img-perfil {
+    width: 250px;
+    height: 250px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.625rem 0;
+  }
+
+  nav ul li {
+    margin: 0 0.625rem;
+  }
+
+  nav ul li a {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    padding: 0 0.625rem;
+  }
+
+  .home-texto h1 {
+    font-size: 2rem;
+  }
+
+  .home-texto h2 {
+    font-size: 1.2rem;
+  }
+
+  .img-perfil {
+    width: 200px;
+    height: 200px;
+  }
+
+  nav ul {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0.625rem 0;
+  }
+
+  nav ul li {
+    margin: 0 0.375rem;
+  }
+
+  nav ul li a {
+    font-size: 0.8rem;
+  }
+
+  .grid-projetos {
+    grid-template-columns: 1fr;
+  }
+
+  .grid-certificado {
+    grid-template-columns: 1fr;
+  }
+}
