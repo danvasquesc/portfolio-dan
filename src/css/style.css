@@ -1,16 +1,10 @@
-/*i {
-    color: #ff4500;
-} */
-
 body {
-  background-color: #964646;
   font-family: "Questrial", serif;
-  line-height: 1.6; /*ver dps pra alterar*/
-  color: #333; /*ver dps pra alterar/ criar variavel de cor*/
+  line-height: 1.5;
+  color: #333;
 }
 
 .container {
-  background-color: #ff0000;
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
@@ -27,7 +21,6 @@ header {
 }
 
 nav ul {
-  background-color: #e1adad;
   display: flex;
   justify-content: center;
   list-style: none;
@@ -35,12 +28,10 @@ nav ul {
 }
 
 nav ul li {
-  background-color: #a49898;
   margin: 0 15px;
 }
 
 nav ul li a {
-  background-color: #3300ff;
   text-decoration: none;
   color: #333;
   font-weight: bold;
@@ -53,12 +44,10 @@ nav ul li a:hover {
 }
 
 section {
-  background-color: #e32a7a;
-  padding: 80px 0; /*alterar dps o espaçamento vertical entre as sessões*/
+  padding: 80px 0;
 }
 
 section h2 {
-  background-color: #e4ef1a;
   text-align: center;
   margin-bottom: 40px;
   color: #333;
@@ -67,13 +56,11 @@ section h2 {
 
 /*Section Home*/
 #home {
-  background-color: rgb(115, 0, 255);
   padding-top: 120px;
   background: linear-gradient(to bottom, #f8f9fa, #fff);
 }
 
 .home-conteudo {
-  background-color: aqua;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -81,19 +68,16 @@ section h2 {
 }
 
 .home-texto {
-  background-color: #48329f;
   flex: 1;
 }
 
 .home-texto h1 {
-  background-color: #d75e2f;
   font-size: 3rem;
   margin-bottom: 10px;
   color: #333;
 }
 
 .home-texto h2 {
-  background-color: #6a0a0a;
   font-size: 1.5rem;
   color: #ff4500;
   margin-bottom: 20px;
@@ -101,7 +85,6 @@ section h2 {
 }
 
 .img-perfil-container {
-  background-color: #010101;
   flex: 1;
   text-align: center;
 }
@@ -116,7 +99,6 @@ section h2 {
 
 /*Link das redes*/
 .links-redes {
-  background-color: #6a6970;
   margin-top: 20px;
 }
 
@@ -138,7 +120,6 @@ section h2 {
 
 /*Section Habilidades*/
 .grid-habilidades {
-  background-color: #9086b5;
   display: flex;
   flex-wrap: wrap;
   gap: 20px;
@@ -165,16 +146,13 @@ section h2 {
 }
 
 .icone-habilidade span {
-  background-color: #b99191;
   font-size: 16px;
   font-weight: bold;
   color: #333;
 }
 
 /*Section Projetos*/
-
 .grid-projetos {
-  background-color: #100a2b;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
@@ -243,9 +221,7 @@ section h2 {
 }
 
 /*Section Certificados*/
-
 .grid-certificado {
-  background-color: #718401;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
@@ -264,6 +240,6 @@ section h2 {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
