@@ -30,11 +30,11 @@
   }
 
   nav ul li {
-    margin: 0 0.625rem;
+    margin: 0 0.5rem;
   }
 
   nav ul li a {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -63,11 +63,11 @@
   }
 
   nav ul li {
-    margin: 0 0.375rem;
+    margin: 0 0.2rem;
   }
 
   nav ul li a {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 
   .grid-projetos {
