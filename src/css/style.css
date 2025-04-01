@@ -118,13 +118,13 @@ section h2 {
   text-align: justify;
 }
 
+/*Section Formacao*/
 .grid-formacao {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 30px;
 }
 
-/*Section Formacao*/
 .texto-formacao {
   background: #fff;
   padding: 20px;
